@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<TCA01DATA>
+	<!-- 処理種別 (LOGON/LOGOFF/REFERENCE/UPDATE) -->
+	<methodType>UPDATE</methodType>
+	
+	<!-- 必須項目 -->
+	<userId>vitria</userId>
+	<corp>99975</corp>
+	<uniqueId>00000000</uniqueId>
+	<clientIPAddress>127.0.0.1</clientIPAddress>
+		
+	<!-- 業務種別(参照系/更新系) -->
+	<processType>EntryBox</processType>
+	
+	<!-- 個別パラメータ(参照系/更新系) -->
+	<house>123426</house>
+	<cust>1</cust>
+
+	<!-- 業務データ -->
+	<hsmData>
+		<SERVICE_GROUP>1</SERVICE_GROUP>
+		<WIP>1</WIP>
+		<DATA_LIST name="ACCOUNTUPDATE_CHANGEBOXDATA">
+			<HDG_EXCHANGE_BOX count="1">
+				<OUTLET_NUMBER>1</OUTLET_NUMBER>
+				<BOX_NUMBER>F5AS22</BOX_NUMBER>
+				<LOCATION>Z</LOCATION>
+				<LONG_DESCIPTION>詳細場所</LONG_DESCIPTION>
+				<SHORT_DESCRIPTION>短縮場所</SHORT_DESCRIPTION>
+			</HDG_EXCHANGE_BOX>
+			<!--HDG_EXCHANGE_BOX count="2">
+				<OUTLET_NUMBER>1</OUTLET_NUMBER>
+				<BOX_NUMBER>ABCDEFG</BOX_NUMBER>
+				<LOCATION>2</LOCATION>
+			</HDG_EXCHANGE_BOX-->
+		</DATA_LIST>
+	</hsmData>
+	
+</TCA01DATA>
